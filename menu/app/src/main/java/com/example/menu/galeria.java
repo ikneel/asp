@@ -19,7 +19,7 @@ public class galeria extends Activity implements View.OnClickListener{
 
     int tam;
 
-    String [] texto = {"1", "2", "3", "4", "5", "6", "7", "8"};
+    String [] texto = {"Imagen 1", "Imagen 2", "Imagen 3", "Imagen 4", "Imagen 5", "Imagen 6", "Imagen 7", "Imagen 8"};
 
     @Override
     protected void onCreate(Bundle si) {
@@ -34,7 +34,7 @@ public class galeria extends Activity implements View.OnClickListener{
 
         pantalla = findViewById(R.id.iv);
         td = findViewById(R.id.tdescription);
-        td.setText("1");
+        td.setText("Imagen 1");
         tam = img.length;
 
     }
